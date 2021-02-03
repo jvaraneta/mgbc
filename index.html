@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+      integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Molino Grace Baptist Church</title>
+  </head>
+  <body>
+    <!-- START NAV BAR -->
+    <nav
+      class="navbar navbar-expand-sm navbar-light fixed-top mb-4"
+      id="main-nav"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand">MGBC</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active navbar-custom">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#about"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                >About Us</a
+              >
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">History</a>
+                <a href="#" class="dropdown-item">What We Believe</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#worship" class="nav-link">Worship Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAV BAR-->
+
+    <!-- SHOWCASE SLIDER -->
+
+    <section id="showcase" class="py-5">
+      <div class="primary-overlay text-white">
+        <div class="container py-3">
+          <div class="row">
+            <div class="col-lg-8 col-md-1 col-sm-1 text-center">
+              <h1 class="display-3 mt-5 pt-5">
+                MOLINO GRACE BIBLE CHURCH
+              </h1>
+              <p class="lead">
+                You are welcome here.
+              </p>
+
+            </div>
+            <div class="col-lg-4 mt-5 pt-5">
+              <div class="join-us card border-secondary text-center card-form">
+                <div class="card-body">
+                  <h3>Please Sign Up</h3>
+                  <p>Join Our Sunday Worship Livestream</p>
+                  <form>
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control form-control-lg border-secondary"
+                        placeholder="First Name"
+                      />
+                    </div>
+
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control form-control-lg border-secondary"
+                        placeholder="Last Name"
+                      />
+                    </div>
+
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control form-control-lg border-secondary"
+                        placeholder="Email"
+                      />
+                    </div>
+
+                    <input
+                      type="submit"
+                      value="Submit"
+                      class="btn btn-outline-secondary btn-block"
+                    />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- END SHOWCASE SLIDER-->
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="text-center p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>Copyright &copy; <span id="year"></span> MGBC</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="http://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // Get the current year for the copyright
+      $("#year").text(new Date().getFullYear());
+    </script>
+  </body>
+</html>

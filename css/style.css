@@ -1,0 +1,63 @@
+/*.dropdown-menu {
+  border-color: #343a40;
+}
+*/
+
+h1, h3{
+  color: #4e4932;
+  font-weight: bolder;
+}
+
+p {
+  color: #4e4932;
+}
+
+.dropdown-menu {
+  background-color: #f1eee4;
+}
+
+.dropdown-menu > a:hover {
+  background-color: #4f4933;
+  color: #fff;
+  background-image: none;
+}
+
+/*.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #ecae1e;
+  opacity: 0.9;
+  background: #4f4933;
+}*/
+
+.navbar {
+  box-shadow: 2px 2px 5px #ecae1e;
+  opacity: 0.9;
+  background: #fff;
+}
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.join-us{
+  background-color: #ecae1e;
+}
+
+#showcase {
+  position: relative;
+  background: url("../img/mountains.jpg");
+  min-height: 575px;
+  box-shadow: 2px 2px 5px #ecae1e;
+}
+#showcase .primary-overlay {
+    background: rgba(79, 73, 51, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
